@@ -1,0 +1,11 @@
+.otp-input {
+    border-radius: 5px;
+}
+
+.otp-button-container {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 100%;
+}

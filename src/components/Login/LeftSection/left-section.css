@@ -1,0 +1,19 @@
+.left-container {
+  display: none;
+}
+
+@media (min-width: 995px) {
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .left-container .text-box {
+    text-align: left;
+  }
+
+  .left-container > img {
+    height: 260px;
+  }
+}

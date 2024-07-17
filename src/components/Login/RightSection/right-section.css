@@ -1,0 +1,16 @@
+.right-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container-box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.or-text {
+  width: 100%;
+  text-align: center;
+  color: #a51414;
+}

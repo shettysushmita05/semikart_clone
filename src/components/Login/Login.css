@@ -1,0 +1,12 @@
+@media (min-width: 995px) {
+  .login-container {
+    /* nav bar height ( 65px ) + height of padding here ( 30 top and bottom => 60px ) */
+    height: calc(100vh - 125px);
+    background-color: #f3f5f9;
+    display: grid;
+    padding: 30px;
+    grid-template-columns: 30% 60%; /* Two columns, 40% and 60% */
+    justify-content: space-around;
+    /* grid-template-columns: 1fr 1fr; */
+  }
+}
